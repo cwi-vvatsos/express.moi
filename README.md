@@ -23,7 +23,7 @@ require('express')
 with this line of code
 
 ```js
-require('express.oi')
+require('express.moi')
 ```
 Your app should run just the same as before! express.oi is designed to be a superset of express and socket.io.
 And i say should, not would ;) .
@@ -33,7 +33,7 @@ And i say should, not would ;) .
 ##### Setting up the app
 
 ```js
-var express = require('express.oi');
+var express = require('express.moi');
 
 var app = express();
 
@@ -42,7 +42,7 @@ app.http().io();
 // Pass in your express-session configuration
 // Documentation here: https://github.com/expressjs/session#sessionoptions
 app.io.session({
-  secret: 'express.oi makes me happy',
+  secret: 'express.moi makes me want a croissant',
   resave: false,
   saveUninitialized: true
 });
