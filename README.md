@@ -11,7 +11,7 @@ We've been using this project for internal projects. Although we will try to upd
 First install:
 
 ```sh
-yarn install https://github.com/cwi-vvatsos/express.moi
+yarn add https://github.com/cwi-vvatsos/express.moi
 ```
 
 Then, simply replace this line of code
