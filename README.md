@@ -25,7 +25,7 @@ with this line of code
 ```js
 require('express.moi')
 ```
-Your app should run just the same as before! express.oi is designed to be a superset of express and socket.io.
+Your app should run just the same as before! express.moi is designed to be a superset of express and socket.io.
 And i say should, not would ;) .
 
 ### Usage
@@ -50,9 +50,9 @@ app.io.session({
 app.listen(3000);
 ```
 
-##### express.oi routes
+##### express.moi routes
 
-This is where the functionality for express.moi and express.oi changes. While oi uses a specific routing table, moi will try to implement a more cohesive router between express and socket.io using middleware routes. 
+This is where the functionality for express.moi and express.oi differentiates. While express.oi uses a specific routing table, express.moi will try to implement a more cohesive router between express and socket.io using middleware routes. 
 ```js
 let messages = [];
 app.io.route('catalog:get', function(req, res) {
