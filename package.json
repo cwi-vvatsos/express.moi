@@ -1,5 +1,5 @@
 {
-  "name": "express.oi",
+  "name": "express.moi",
   "version": "0.0.21",
   "description": "Realtime-web library, based on express and socket.io",
   "keywords": [
@@ -13,9 +13,9 @@
     "badass",
     "lets-chat"
   ],
-  "homepage": "https://github.com/sibartlett/express.oi",
-  "author": "Simon Bartlett <simon@sibartlett.com>",
-  "repository": "git://github.com/sibartlett/express.oi",
+  "homepage": "https://github.com/vvatsos/cwi-express.moi",
+  "author": "Vasilis Vatsos <vvatsos@cwi.gr>",
+  "repository": "git://github.com/vvatsos/cwi-express.moi",
   "license": "MIT",
   "dependencies": {
     "cookie-parser": "^1.4.3",
